@@ -1,0 +1,79 @@
+.post-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 .5rem;
+  border-radius: .5rem;
+  row-gap: .5rem;
+}
+
+.post-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5rem;
+}
+
+.post-box::after {
+  content: "";
+  margin-top: .5rem;
+  width: 95%;
+  display: block;
+  height: 1px;
+  background-color: rgb(235, 235, 235);
+}
+
+.user-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5rem;
+  padding: .5rem;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  border-radius: .5rem .5rem 0 0;
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.user-info-container .user-profile-picture {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  outline: 1px solid rgb(196, 196, 196);
+}
+
+.user-info-container .user-username {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(65, 65, 65);
+}
+
+.user-post-container .user-post {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.user-actions-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(245, 245, 245);
+  padding: .5rem;
+  width: 100%;
+  height: 47px;
+  border-top: 1px solid rgb(240, 240, 240);
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.user-actions-left {
+  display: flex;
+  gap: .5rem;
+}
+
+.user-actions-container .action-button {
+  width: 20px;
+  height: auto;
+  stroke: black;
+}

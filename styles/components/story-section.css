@@ -1,0 +1,26 @@
+.story-section {
+  padding: .5rem .5rem 1rem .5rem;
+  display: flex;
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.story {
+  margin-right: .5rem;
+  min-width: 80px;
+  min-height: 80px;
+}
+
+.story-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 40px;
+  object-position: center;
+  border: 2px solid rgb(11, 228, 108);
+  
+}

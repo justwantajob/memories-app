@@ -1,0 +1,27 @@
+.app-menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  background: rgb(245, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem 1rem 0 0;
+  outline: 1px solid rgb(240, 240, 240);
+}
+
+.app-menu-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+  fill: rgb(0, 0, 0);
+}
